@@ -2,7 +2,7 @@
 
 pkgbase=bluez-utils
 pkgname=bluetoothctl
-pkgver=5.77
+pkgver=5.80
 pkgrel=1
 pkgdesc="Just the bluetoothctl program from bluez-utils"
 url="http://www.bluez.org/"
@@ -11,7 +11,7 @@ license=('GPL2')
 
 pkgfile="$pkgbase-$pkgver-$pkgrel-$arch.pkg.tar.zst"
 source=("$pkgfile::https://archlinux.org/packages/extra/$arch/$pkgbase/download")
-sha256sums=('4ac0dfda19390dcbc0c8321cfc52b6068fd984f8299c53c322bcbca306b36673')
+sha256sums=('01eedc0f35c8685530d2994aa50c7a5ad992b5ed2011d8acc01b598161972b09')
 noextract=("$pkgfile")
 
 check() {
